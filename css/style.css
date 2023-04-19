@@ -1,0 +1,308 @@
+@font-face {
+    font-family: QuiteChocolatey;
+    src: url(../fonts/QuiteChocolatey.ttf);
+}
+@font-face {
+    font-family: MontserratBold;
+    src: url(/fonts/MontserratBold.ttf);
+}
+@font-face {
+    font-family: PT_Serif;
+    src: url(/fonts/PT_Serif.ttf);
+}
+@font-face {
+    font-family: Couture;
+    src: url(../fonts/couture.otf);
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.box {
+    background-color:rgb(81, 81, 82);
+}
+.box__inner {
+}
+.img {
+    margin: 0 auto;
+    width: 1200px;
+    height: 690px;
+}
+.logo {
+    font-weight: normal;
+    margin: 0 auto;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    line-height: 32px;
+    text-align: center;
+    -moz-transform: matrix( 1.47232947232947,0,0,1.47203209902312,0,0);
+    -webkit-transform: matrix( 1.47232947232947,0,0,1.47203209902312,0,0);
+    -ms-transform: matrix( 1.47232947232947,0,0,1.47203209902312,0,0);  
+    padding-left: 94px;
+    padding-top: 56px;
+    font-family: QuiteChocolatey;
+    position: absolute;
+    color: #fff;
+}
+.menu {
+    position: absolute;
+}
+.ulli {
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: MontserratBold;
+    line-height: 22px;
+    list-style: none;
+    display: flex;
+    padding-top: 72px;
+    padding-left: 591px;
+}
+.ulli li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 15px 10px;
+}
+.ulli li a:hover {
+    background-color: #130e27;
+    border-radius: 5px;
+}
+.sell {
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 90px;
+    font-family: MontserratBold;
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    line-height: 80px;
+    position: absolute;
+    padding-left: 104px;
+    padding-top: 266px;
+}
+.car {
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 90px;
+    font-family: MontserratBold;
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+    padding-left: 105px;
+    padding-top: 346px;
+    position: absolute;
+}
+.under_sell {
+    font-size: 20px;
+    font-family: PT_Serif;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    width: 600px;
+    padding-left: 103px;
+    margin: 0 auto;
+    padding-top: 457px;
+    position: absolute;
+}
+.box__inner_2 {
+    height: 480px;
+    background-color: #fff;
+}
+.service {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-top: 43px;
+}
+.service_1 {
+    margin: 0;
+    font-size: 50px;
+    font-family: Couture;
+    color: #c62314;
+    font-weight: bold;
+    line-height: 80px;
+}
+.service_2 {
+    padding-left: 19px;
+    margin: 0;
+    font-size: 50px;
+    font-family: Couture;
+    color: #130e27;
+    font-weight: bold;
+    line-height: 80px;
+}
+.cards_1 {
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    text-align: center;
+}
+.fa {
+    padding-top: 90px;
+    color: #130e27;
+    padding-left: 75px;
+    font-size: 142px;
+}
+.icons {
+    padding-top: 46px;
+    padding-left: 75px;
+    font-size: 20px;
+    font-family: PT_Serif;
+    color: rgb(22, 22, 22);
+    line-height: 28px;
+    margin: 0;
+}
+.box__inner_3 {
+    align-items: center;
+    margin: 0;
+    height: 120px;
+    display: flex;
+    background-color: #130e27;
+}
+.business {
+    padding-left: 105px;
+    text-align: left;
+    font-size: 20px;
+    font-family: PT_Serif;
+    color: rgb(255, 255, 255);
+    line-height: 28px;     
+    margin: 0;
+    width: 750px;
+}
+.business_2 {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 130px;
+    font-size: 22px;
+    font-family: MontserratBold;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+}
+.business_3 {
+    background-color: #c62314;
+    border-radius: 8%;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-decoration: none;
+    color: white;
+}
+.box__inner_4 {
+    height: 615px;
+    background-color: #efefef;
+}
+.pricing {
+    text-transform: uppercase;
+    padding-bottom: 57px;
+    padding-left: 502px;
+    padding-top: 64px;
+    margin: 0;
+    font-size: 50px;
+    font-family: MontserratBold;
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    line-height: 80px;
+}
+.cards_2 {
+    display: flex;
+    justify-content: space-around;
+}
+.item_2 {
+    border-radius: 2%;
+    width: 318px;
+    height: 389px;
+    background-color: #fff;
+}
+.item_2_title {
+    padding-top: 35px;
+    padding-bottom: 22px;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    font-family: PT_Serif;
+    color: rgb(22, 22, 22);
+    line-height: 28px;
+}
+.price {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+    font-family: MontserratBold;
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    line-height: 80px;
+}
+.item_info {
+    font-size: 20px;
+    font-family: PT_Serif;
+    color: rgb(22, 22, 22);
+    line-height: 28px;
+    text-align: center;
+    margin: 0;
+}
+.nav {
+    padding-top: 22px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: MontserratBold;
+    color: rgb(255, 2, 2);
+    line-height: 28px;
+    margin: 0;
+}
+.nav a {
+    border-radius: 5%;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0;
+    background-color:#130e27;
+}
+.nav a:hover {
+    background-color: #c62314;
+}
+.box__inner_5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 187px;
+    background-color: #130e27;
+    margin: 0;
+}
+.reserved {
+    margin: 0;
+    font-size: 20px;
+    font-family: PT_Serif;
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+}
+.logo_2 {
+    font-size: 60px;
+    font-family: QuiteChocolatey;
+    color: rgb(198, 35, 20);
+    line-height: 24px;
+    -moz-transform: matrix( 1.07335907335907,0,0,1.07260875508087,0,0);
+    -webkit-transform: matrix( 1.07335907335907,0,0,1.07260875508087,0,0);
+    -ms-transform: matrix( 1.07335907335907,0,0,1.07260875508087,0,0);
+}
+.reserved:after {
+    content:attr(data-text);
+    color:red;
+}
